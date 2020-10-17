@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Humberger extends React.Component {
     constructor() {
@@ -23,11 +24,11 @@ class Humberger extends React.Component {
             drawer = (
                 <div class="drawer-out">
                     <div class="links">
-                        <a href="index.html" class="link">home</a>
+                        <Link to='/' class="link">Home</Link>
                         <br />
-                        <a href="practice.html" class="link">practice</a>
+                        <Link to='/practice' class="link">Practice</Link>
                         <br />
-                        <a href="contact.html" class="link">contact</a>
+                        <Link to='/contact' class="link">Contact</Link>
                         <br />
                     </div>
                 </div>
