@@ -129,7 +129,7 @@
   transform: rotate(45deg);
 }
 
-.hamburger[aria-expanded="true"] .p-hamburger_line::after {
+.hamburger[aria-expanded="true"] .hamburger_line::after {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);  

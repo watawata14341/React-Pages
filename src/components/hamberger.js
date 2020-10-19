@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 
-class Humberger extends React.Component {
+class Hamberger extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -22,7 +22,7 @@ class Humberger extends React.Component {
     render() {
         return(
             <div id="buger-menu">
-                <CSSTransition in={this.state.isOpen} timeout={400} classNames="drawer">
+                <CSSTransition in={this.state.isOpen} timeout={300} classNames="drawer">
                     <div className="drawer">
                     <div className="links">
                         <Link to='/' class="link">Home</Link>
@@ -34,7 +34,7 @@ class Humberger extends React.Component {
                     </div>
                     </div>
                 </CSSTransition>
-                <button type="button" id="buttonHamburger" className="button hamburger" onClick={() => {this.handleOpen()}}>
+                <button type="button" id="buttonHamburger" className="button hamburger" onClick={() => {this.handleOpen()}} aria-expanded={this.state.isOpen}>
                     <span className="hamburger_line">
                          {/*<span class="visuallyHidden">
                          </span>*/}
@@ -45,4 +45,4 @@ class Humberger extends React.Component {
     }
 }
 
-export default Humberger;
+export default Hamberger;

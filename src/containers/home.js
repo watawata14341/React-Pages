@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../components/header';
-import Humberger from '../components/humberger';
+import Hamberger from '../components/hamberger';
 
 class Home extends React.Component {
     render() {
         return(
             <div>
-                <Humberger />
+                <Hamberger />
                 <Header />
                 <p>this is home.</p>
             </div>
