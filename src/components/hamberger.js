@@ -34,10 +34,9 @@ class Hamberger extends React.Component {
                     </div>
                     </div>
                 </CSSTransition>
-                <button type="button" id="buttonHamburger" className="button hamburger" onClick={() => {this.handleOpen()}} aria-expanded={this.state.isOpen}>
+                <button type="button" id="buttonHamburger" className="button hamburger" 
+                        onClick={() => {this.handleOpen()}} aria-expanded={this.state.isOpen}>
                     <span className="hamburger_line">
-                         {/*<span class="visuallyHidden">
-                         </span>*/}
                     </span>
                 </button>
             </div>
