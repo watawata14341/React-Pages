@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 
 class Hamberger extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             isOpen: false,
         };

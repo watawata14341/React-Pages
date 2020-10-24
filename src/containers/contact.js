@@ -6,7 +6,7 @@ class Contact extends React.Component {
     render() {
         return(
             <div>
-                <Hamberger />
+                <Hamberger url="contact"/>
                 <Header />
                 <p>this is contact.</p>
             </div>
