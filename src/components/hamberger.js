@@ -25,11 +25,11 @@ class Hamberger extends React.Component {
                 <CSSTransition in={this.state.isOpen} timeout={300} classNames="drawer">
                     <div className="drawer">
                     <div className="links">
-                        <Link to='/' class="link">Home</Link>
+                        <Link to='/' className="link">Home</Link>
                         <br />
-                        <Link to='/practice' class="link">Practice</Link>
+                        <Link to='/practice' className="link">Practice</Link>
                         <br />
-                        <Link to='/contact' class="link">Contact</Link>
+                        <Link to='/contact' className="link">Contact</Link>
                         <br />
                     </div>
                     </div>

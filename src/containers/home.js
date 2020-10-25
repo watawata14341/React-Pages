@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header';
 import Hamberger from '../components/hamberger';
+import Background from '../components/background';
 
 class Home extends React.Component {
     render() {
@@ -8,6 +9,7 @@ class Home extends React.Component {
             <div>
                 <Hamberger />
                 <Header />
+                <Background />
                 <p>this is home.</p>
             </div>
         );
