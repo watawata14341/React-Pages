@@ -1,11 +1,13 @@
 import React from 'react';
 import Sakura from '../assets/sakura.svg'
+import Momiji from '../assets/momiji.svg'
 
 class Background extends React.Component {
     render() {
         return (
             <section className="bg">
                 <img src={ Sakura } width="20" height="20" alt="桜" className="sakura"/>
+                <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ left: "10vw"}}/>
                 <div className="snow" style={{ width: "11px", height: "11px", animationDelay: "0.0s", left: "0vw"}}></div>
                 <div className="snow" style={{ width: "12px", height: "12px", animationDelay: "2.5s", left: "10vw"}}></div>
                 <div className="snow" style={{ width: "9px", height: "9px", animationDelay: "8.0s", left: "20vw"}}></div>

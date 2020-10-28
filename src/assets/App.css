@@ -233,6 +233,37 @@
   }
 }
 
+.bg .momiji {
+  opacity: 0;
+  -webkit-transform-origin: 0px 0px;
+  transform-origin: 0px 0px;
+  -webkit-animation-name: Momiji;
+  animation-name: Momiji;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 8s;
+  animation-duration: 8s;
+  -webkit-animation-delay: 0.0s;
+  animation-delay: 0.0s;
+  position: absolute;
+  display: block;
+}
+
+@keyframes Momiji {
+  0% {
+    transform: translateY(-100px) translateX(10px);
+    opacity: 1.0;
+  }
+  100% {
+    transform: translateX(200px) translateY(90vh) rotate(540deg);
+    opacity: 0.0;
+  }
+}
+
 .bg .snow {
   opacity: 0;
   -webkit-transform-origin: 0px 0px;
@@ -259,7 +290,7 @@
 
 @keyframes Snow {
   0% {
-      transform: translateY(-200px);
+      transform: translateY(-100px);
       opacity: 1.0;
   }
   100% {
@@ -270,7 +301,7 @@
 
 @-webkit-keyframes Snow {
   0% {
-      -webkit-transform: translateY(-200px);
+      -webkit-transform: translateY(-100px);
       opacity: 1.0;
   }
   100% {
