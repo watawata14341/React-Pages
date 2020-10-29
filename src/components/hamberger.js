@@ -40,10 +40,12 @@ class Hamberger extends React.Component {
                             <br />
                             <Link to='/contact' className="link">Contact</Link>
                             <br />
-                            <button type="button" value="0" onClick={() => { this.clickButton(0); }}>春</button>
-                            <button type="button" value="1" onClick={() => { this.clickButton(1); }}>夏</button>
-                            <button type="button" value="2" onClick={() => { this.clickButton(2); }}>秋</button>
-                            <button type="button" value="3" onClick={() => { this.clickButton(3); }}>冬</button>
+                        </div>
+                        <div id="bg-btn">
+                            <button type="button" value="0" className="btn btn-0" onClick={() => { this.clickButton(0); }}><span>春</span></button>
+                            <button type="button" value="1" className="btn btn-1" onClick={() => { this.clickButton(1); }}><span>夏</span></button>
+                            <button type="button" value="2" className="btn btn-2" onClick={() => { this.clickButton(2); }}><span>秋</span></button>
+                            <button type="button" value="3" className="btn btn-3" onClick={() => { this.clickButton(3); }}><span>冬</span></button>
                         </div>
                     </div>
                 </CSSTransition>

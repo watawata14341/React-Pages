@@ -193,6 +193,77 @@
   border-radius: 50%;
 }
 
+#bg-btn {
+  position: relative;
+  top: 75vh;
+}
+
+.btn {
+  overflow: hidden;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #fff;
+  border-radius: 0;
+  background: #252525;
+  margin-left: 10px;
+  outline: none;
+}
+
+.btn span {
+  position: relative;
+}
+
+.btn:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 150%;
+  height: 100%;
+
+  content: "";
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-95%);
+  transform: translateX(-95%);
+}
+
+.btn:hover::before {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.btn-0:before {
+  background: #eb6877;
+}
+
+.btn-1:before {
+  background: #00b7ee;
+}
+
+.btn-2:before {
+  background: #EB6100;
+}
+
+.btn-3:before {
+  background: #BDC3C4;
+}
+
 .bg {
   position: fixed;
   background-size: cover;

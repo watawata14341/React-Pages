@@ -23,7 +23,6 @@ class Home extends React.Component {
                 <Header />
                 <Background  scenenum={ this.state.scenenum } />
                 <p>this is home.</p>
-                <p>{ this.state.scenenum }</p>
             </div>
         );
     }
