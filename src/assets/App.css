@@ -256,7 +256,7 @@
 @keyframes Momiji {
   0% {
     transform: translateY(-100px) translateX(10px);
-    opacity: 1.0;
+    opacity: 0.8;
   }
   100% {
     transform: translateX(200px) translateY(90vh) rotate(540deg);

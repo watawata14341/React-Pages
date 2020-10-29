@@ -5,7 +5,6 @@ import Momiji from '../assets/momiji.svg'
 class Background extends React.Component {
     render() {
         let Scene;
-        console.log(this.props.scenenum)
         switch (this.props.scenenum){
             case 0:
                 Scene = (
