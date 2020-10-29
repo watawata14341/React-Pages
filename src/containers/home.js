@@ -9,7 +9,7 @@ class Home extends React.Component {
             <div>
                 <Hamberger />
                 <Header />
-                <Background />
+                <Background  scenenum={ 3 } />
                 <p>this is home.</p>
             </div>
         );

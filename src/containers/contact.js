@@ -3,10 +3,11 @@ import Header from '../components/header'
 import Hamberger from '../components/hamberger'
 
 class Contact extends React.Component {
+    let 
     render() {
         return(
             <div>
-                <Hamberger url="contact"/>
+                <Hamberger />
                 <Header />
                 <p>this is contact.</p>
             </div>
