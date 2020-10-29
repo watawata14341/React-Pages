@@ -31,6 +31,10 @@ class Hamberger extends React.Component {
                         <br />
                         <Link to='/contact' className="link">Contact</Link>
                         <br />
+                        <button type="button" value="1">春</button>
+                        <button type="button" value="2">夏</button>
+                        <button type="button" value="3">秋</button>
+                        <button type="button" value="4">冬</button>
                     </div>
                     </div>
                 </CSSTransition>

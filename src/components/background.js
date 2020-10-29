@@ -10,7 +10,19 @@ class Background extends React.Component {
             case 0:
                 Scene = (
                     <section className="bg">
-                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura"/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "3.0s", left: "-5vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "5.0s", left: "0vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "2.5s", left: "5vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "7.0s", left: "10vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "4.0s", left: "20vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "6.5s", left: "30vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "0.5s", left: "35vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "5.5s", left: "60vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "2.0s", left: "50vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "4.5s", left: "70vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "7.5s", left: "80vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "1.5s", left: "85vw"}}/>
+                        <img src={ Sakura } width="20" height="20" alt="桜" className="sakura" style={{animationDelay: "6.0s", left: "90vw"}}/>
                     </section>
                 );
                 break;
@@ -19,13 +31,26 @@ class Background extends React.Component {
             case 2:
                 Scene = (
                     <section className="bg">
-                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ left: "10vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "3.0s", left: "-5vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "5.0s", left: "0vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "2.5s", left: "5vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "7.0s", left: "10vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "4.0s", left: "20vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "6.5s", left: "30vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "0.5s", left: "35vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "5.5s", left: "60vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "2.0s", left: "50vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "4.5s", left: "70vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "7.5s", left: "80vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "1.5s", left: "85vw"}}/>
+                        <img src={ Momiji } width="25" height="25" alt="紅葉" className="momiji" style={{ animationDelay: "6.0s", left: "90vw"}}/>
                     </section>
                 );
                 break;
             case 3:
                 Scene = (
                     <section className="bg">
+                        <div className="snow" style={{ width: "9px", height: "9px", animationDelay: "4.0s", left: "-5vw"}}></div>
                         <div className="snow" style={{ width: "11px", height: "11px", animationDelay: "0.0s", left: "0vw"}}></div>
                         <div className="snow" style={{ width: "12px", height: "12px", animationDelay: "2.5s", left: "10vw"}}></div>
                         <div className="snow" style={{ width: "9px", height: "9px", animationDelay: "8.0s", left: "20vw"}}></div>
