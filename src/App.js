@@ -13,11 +13,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <Router>
-          <div>
+          <>
             <Route exact path='/' component={Home} />
             <Route exact path='/practice' component={Practice} />
             <Route exact path='/contact' component={Contact} />
-          </div>
+          </>
         </Router>
       </div>
     );
