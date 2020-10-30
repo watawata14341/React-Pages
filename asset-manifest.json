@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-demo/static/css/main.9c95957c.chunk.css",
+    "main.css": "/React-demo/static/css/main.8772e233.chunk.css",
     "main.js": "/React-demo/static/js/main.ff4051c4.chunk.js",
     "main.js.map": "/React-demo/static/js/main.ff4051c4.chunk.js.map",
     "runtime-main.js": "/React-demo/static/js/runtime-main.c5f05ef1.js",
@@ -8,9 +8,9 @@
     "static/js/2.86370ad3.chunk.js": "/React-demo/static/js/2.86370ad3.chunk.js",
     "static/js/2.86370ad3.chunk.js.map": "/React-demo/static/js/2.86370ad3.chunk.js.map",
     "index.html": "/React-demo/index.html",
-    "precache-manifest.130af2112d21ea3f1d93780bbdf2d534.js": "/React-demo/precache-manifest.130af2112d21ea3f1d93780bbdf2d534.js",
+    "precache-manifest.a7a3330d7c4a7b299907493b78f83221.js": "/React-demo/precache-manifest.a7a3330d7c4a7b299907493b78f83221.js",
     "service-worker.js": "/React-demo/service-worker.js",
-    "static/css/main.9c95957c.chunk.css.map": "/React-demo/static/css/main.9c95957c.chunk.css.map",
+    "static/css/main.8772e233.chunk.css.map": "/React-demo/static/css/main.8772e233.chunk.css.map",
     "static/js/2.86370ad3.chunk.js.LICENSE.txt": "/React-demo/static/js/2.86370ad3.chunk.js.LICENSE.txt",
     "static/media/image-icon.jpg": "/React-demo/static/media/image-icon.e3ceb55c.jpg",
     "static/media/momiji.svg": "/React-demo/static/media/momiji.1d2abae6.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c5f05ef1.js",
     "static/js/2.86370ad3.chunk.js",
-    "static/css/main.9c95957c.chunk.css",
+    "static/css/main.8772e233.chunk.css",
     "static/js/main.ff4051c4.chunk.js"
   ]
 }
