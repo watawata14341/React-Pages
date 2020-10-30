@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../components/header';
 import Hamberger from '../components/hamberger';
 import Background from '../components/background';
+import Footer from '../components/footer';
 
 class Practice extends React.Component {
     constructor(props) {
@@ -18,12 +18,16 @@ class Practice extends React.Component {
 
     render() {
         return(
-            <div>
+            <>
                 <Hamberger setSceneNum={(num) => { this.setSceneNum(num); }}/>
-                <Header />
                 <Background  scenenum={ this.state.scenenum } />
-                <p>this is practice.</p>
-            </div>
+                <div class="wrapper">
+                    <div class="con1">
+                        <p>何か作成したものを上げていきます。</p>
+                    </div>
+                </div>
+                <Footer />
+            </>
         );
     }
 }

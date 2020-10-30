@@ -1,7 +1,8 @@
 import React from 'react';
-import Hamberger from '../components/hamberger'
+import Hamberger from '../components/hamberger';
 import Background from '../components/background';
-import ProfImg from '../assets/image-icon.jpg'
+import ProfImg from '../assets/image-icon.jpg';
+import Footer from '../components/footer';
 
 class Contact extends React.Component {
     constructor(props) {
@@ -47,6 +48,7 @@ class Contact extends React.Component {
                         </svg>
                     </div>
                 </div>
+                <Footer />
             </>
         );
     }
