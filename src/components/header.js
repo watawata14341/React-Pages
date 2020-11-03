@@ -6,9 +6,9 @@ class Header extends React.Component {
         return(
             <div>
                 <p>Watanuki</p>
-                <Link to='/'>Home</Link>
-                <Link to='/practice'>Practice</Link>
-                <Link to='/contact'>Contact</Link>
+                <Link to='/React-pages/'>Home</Link>
+                <Link to='/React-pages/practice'>Practice</Link>
+                <Link to='/React-pages/contact'>Contact</Link>
             </div>
         );
     }
