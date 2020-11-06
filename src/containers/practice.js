@@ -21,8 +21,8 @@ class Practice extends React.Component {
             <>
                 <Hamberger setSceneNum={(num) => { this.setSceneNum(num); }}/>
                 <Background  scenenum={ this.state.scenenum } />
-                <div class="wrapper">
-                    <div class="con1">
+                <div className="wrapper">
+                    <div className="con1">
                         <p>何か作成したものを上げていきます。</p>
                     </div>
                 </div>

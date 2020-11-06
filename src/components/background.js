@@ -26,6 +26,10 @@ class Background extends React.Component {
                 );
                 break;
             case 1:
+                Scene = (
+                    <>
+                    </>
+                );
                 break;
             case 2:
                 Scene = (
