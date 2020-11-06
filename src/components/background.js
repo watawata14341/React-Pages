@@ -27,8 +27,18 @@ class Background extends React.Component {
                 break;
             case 1:
                 Scene = (
-                    <>
-                    </>
+                    <section className="bg">
+                        <div className="bubble" style={{ width: "20px", height: "9px", animationDelay: "4.0s", left: "-5vw"}}></div>
+                        <div className="bubble" style={{ width: "20px", height: "20px", animationDelay: "0.0s", left: "0vw"}}></div>
+                        <div className="bubble" style={{ width: "15px", height: "15px", animationDelay: "2.5s", left: "10vw"}}></div>
+                        <div className="bubble" style={{ width: "30px", height: "30px", animationDelay: "8.0s", left: "20vw"}}></div>
+                        <div className="bubble" style={{ width: "11px", height: "11px", animationDelay: "6.0s", left: "30vw"}}></div>
+                        <div className="bubble" style={{ width: "10px", height: "10px", animationDelay: "1.5s", left: "40vw"}}></div>
+                        <div className="bubble" style={{ width: "20px", height: "20px", animationDelay: "10.0s", left: "50vw"}}></div>
+                        <div className="bubble" style={{ width: "10px", height: "10px", animationDelay: "9.0s", left: "60vw"}}></div>
+                        <div className="bubble" style={{ width: "13px", height: "13px", animationDelay: "7.0s", left: "70vw"}}></div>
+                        <div className="bubble" style={{ width: "10px", height: "10px", animationDelay: "2.5s", left: "80vw"}}></div>
+                    </section>
                 );
                 break;
             case 2:
