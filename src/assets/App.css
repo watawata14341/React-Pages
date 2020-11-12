@@ -446,43 +446,37 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 22px;
+  text-align: left;
+  margin-left: 60px;
 }
 
 .prof-his{
   position: relative;
   display: block;
+  text-align: left;
+  margin-left: 60px;
 }
 
 .prof-his-left{
   position: relative;
-  display: inline-block;
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 22px;
-}
-
-.prof-his-left p{
-  display: inline;
 }
 
 .prof-his-mid{
   position: relative;
-  display: inline-block;
-}
-
-.prof-his-mid p{
-  display: inline;
+  display: block;
 }
 
 .prof-his-right{
   position: relative;
-  display: inline-block;
+  display: block;
+  text-align: left;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 22px;
-}
-.prof-his-right p{
-  display: inline;
 }
 
 .prof-amb{

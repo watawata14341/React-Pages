@@ -30,14 +30,12 @@ class Home extends React.Component {
                             <p>Hobby : 映画, 旅行, ゲーム</p>
                         </div>
                         <div className="prof-his">
-                            <div className="prof-his-left">
-                                <p>history : </p> 
-                            </div>
+                            <div className="prof-his-left"><p>history : </p></div>
                             <div className="prof-his-mid"></div>
                             <div className="prof-his-right">
-                                <p>2014. 群馬高専 電子情報工学科</p><br/>
-                                <p>2019. 山梨大学 コンピュータ理工学科</p><br/>
-                                <p>2021. 山梨大学大学院 コンピュータ理工学専攻</p><br/>
+                                <p>2014. 群馬高専 電子情報工学科</p>
+                                <p>2019. 山梨大学 コンピュータ理工学科</p>
+                                <p>2021. 山梨大学大学院 コンピュータ理工学専攻(予定)</p>
                             </div>
                         </div>
                         <div className="prof-amb">
