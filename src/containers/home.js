@@ -35,7 +35,7 @@ class Home extends React.Component {
                             <div className="prof-his-right">
                                 <p>2014. 群馬高専 電子情報工学科</p>
                                 <p>2019. 山梨大学 コンピュータ理工学科</p>
-                                <p>2021. 山梨大学大学院 コンピュータ理工学専攻(予定)</p>
+                                <p>2021. 山梨大学大学院 工学専攻 コンピュータ理工学コース</p>
                             </div>
                         </div>
                         <div className="prof-amb">
